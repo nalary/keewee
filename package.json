@@ -1,5 +1,5 @@
 {
-  "name": "agency",
+  "name": "keewee-agency",
   "private": true,
   "scripts": {
     "dev": "next dev",

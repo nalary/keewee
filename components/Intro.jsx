@@ -19,8 +19,7 @@ const Intro = () => {
             <div className={styles.card}>
                 <div className={styles.img}>
                     <Image
-                        src={process.env.NEXT_PUBLIC_URL + "/img/kiwi.png"}
-                        //src="/img/kiwi.png"
+                        src="/img/kiwi.png"
                         layout="fill"
                         objectFit="cover"    
                         priority="true" 
