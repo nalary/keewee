@@ -1,7 +1,7 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ["images.pexels.com", "keewee-agency.herokuapp.com"],
+    domains: ["images.pexels.com"],
   },
   loader: "imgix",
   path: "",
