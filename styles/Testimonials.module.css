@@ -35,7 +35,11 @@
     align-items: center;
 }
 
-.avatar {
+.avatar {      
+    transition: all 1s ease;
+}
+
+.photo {
     border-radius: 50%;
 }
 
@@ -52,6 +56,10 @@
 
 .jobTitle {
     font-size: 14px;
+}
+
+.avatar:hover  {
+    transform: scale(2);
 }
 
 @media screen and (max-width: 480px) {

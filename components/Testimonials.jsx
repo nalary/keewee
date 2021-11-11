@@ -21,14 +21,16 @@ const Testimonials = () => {
                             {user.comment}
                         </p>
                         <div className={styles.person}>
-                            <Image 
-                                src={`/img/${user.avatar}`}
-                                alt=""
-                                width="45px"
-                                height="45px"
-                                objectFit="cover"
-                                className={styles.avatar}
-                            />
+                            <div className={styles.avatar}>
+                                <Image 
+                                    src={`/img/${user.avatar}`}
+                                    alt=""
+                                    width="45px"
+                                    height="45px"
+                                    objectFit="cover"
+                                    className={styles.photo}                            
+                                />
+                            </div>                            
                             <div className={styles.info}>
                                 <span className={styles.name}>{user.name}</span>
                                 <span className={styles.jobTitle}>{user.title}</span>
