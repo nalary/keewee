@@ -6,9 +6,11 @@ const Footer = () => {
     return (
         <div className={styles.container}>
             <div className={styles.cardLg}>
-                <h1 className={styles.title}>KEEWEE CREATIVES.</h1>
+                <Link href="/">
+                    <h1 className={styles.title}>KEEWEE CREATIVES.</h1>
+                </Link>                
                 <h1 className={styles.linkTitle}>
-                    <Link href="/contact" className={styles.link}>                        
+                    <Link href="/contact" className={styles.link} passHref>                        
                         {/* <> */}
                             <span className={styles.linkText}>WORK WITH US</span>
                             {/* <Image

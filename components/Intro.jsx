@@ -16,12 +16,15 @@ const Intro = () => {
                 </p>
                 <button className={styles.button}>DISCOVER</button>
             </div>
-            <div className={styles.card}>
+            <div className={styles.imgCard}>
                 <div className={styles.img}>
                     <Image
                         src="/img/kiwi.png"
-                        layout="fill"
-                        objectFit="cover"    
+                        width="100%"
+                        height="100%"
+                        layout="responsive"
+                        // layout="fill"
+                        objectFit="contain"    
                         priority="true" 
                         alt=""                    
                     />
