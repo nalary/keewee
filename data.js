@@ -214,7 +214,7 @@ export const users = [
         logo: "ms.png",
         avatar: "mint.jpg",
         comment: "And they said that we can't be together Because Because we come from different sides You, you are my universe and I just want to put you first And you.",
-        name: "Miriam Hardin",
+        name: "Mint Hardin",
         title: "Executive Manager",
     },
     {
@@ -222,7 +222,7 @@ export const users = [
         logo: "google.png",
         avatar: "choco.jpg",
         comment: "I’ve been feeling jaded don’t know how I should play it tell me how to play it. Now you, you’ve been moving on let me know can come along Since you’re gone.",
-        name: "Dina Brook",
+        name: "Choco Brook",
         title: "HR Manager",
     },
     {
@@ -230,7 +230,7 @@ export const users = [
         logo: "facebook.png",
         avatar: "patty.jpg",
         comment: "They were just doin' it wrong I gave up on love until you made me believe in it after all After all, mm If you never fell out of the sky I don't know what I would do.",
-        name: "Ellie-Rose Munro",
+        name: "Patty Munro",
         title: "UI Designer",
     },
     {
@@ -238,7 +238,7 @@ export const users = [
         logo: "yahoo.png",
         avatar: "nicha.jpg",
         comment: "Go easy on me baby I was still a child Didn't get the chance to Feel the world around me I had no time to choose What I chose to do So go easy on me.",
-        name: "Taha Medina",
+        name: "Nicha Medina",
         title: "Web Developer",
     },
 ];
